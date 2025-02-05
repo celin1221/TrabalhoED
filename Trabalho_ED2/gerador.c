@@ -6,7 +6,7 @@
 // Função para gerar números aleatórios
 void gerar_aleatorio(int *arr, int n) {
     for (int i = 0; i < n; i++) {
-        arr[i] = rand() % 1000; // Números entre 0 e 999
+        arr[i] = rand() % 100000;
     }
 }
 
